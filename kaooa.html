@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>KAOOA</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="../CSS/main.css">
+		<link rel="shortcut icon" href="../stuff/crow.jpg">
+	</head>
+	<body>
+		<audio id="audio">
+			<source src="../stuff/Project_Utopia.mp3" type="audio/mpeg">
+		</audio>
+		<audio id="audio1">
+			<source src="../stuff/button-press.ogg" type="audio/ogg">
+		</audio>
+		<audio id="audio2">
+			<source src="../stuff/button-release.ogg" type="audio/ogg">
+		</audio>
+		<div id="container"></div>
+		<div id="string">
+			<a href="" id="link" download="moves.txt">Download </a>
+			<textarea id="txt" cols="30" rows="2"></textarea>
+			
+		</div>
+		<h1 id="info">Click anywhere to start playing.</h1>
+		<script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+
+		<script type="importmap">
+			{
+			  "imports": {
+				"three": "https://unpkg.com/three/build/three.module.js",
+				"OrbitControls": "https://unpkg.com/three/examples/jsm/controls/OrbitControls.js"
+			  }
+			}
+		</script>
+		<script type="module" src="../JS/kaooa.js" defer></script>
+
+	</body>
+</html>
