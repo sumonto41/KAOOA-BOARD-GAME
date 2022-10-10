@@ -73,7 +73,7 @@ floorMat = new THREE.MeshStandardMaterial({
 	bumpScale: 0.0005
 });
 const textureLoader = new THREE.TextureLoader();
-textureLoader.load('../stuff/hardwood2_diffuse.jpg', function (map) {
+textureLoader.load('hardwood2_diffuse.jpg', function (map) {
 
 	map.wrapS = THREE.RepeatWrapping;
 	map.wrapT = THREE.RepeatWrapping;
@@ -84,7 +84,7 @@ textureLoader.load('../stuff/hardwood2_diffuse.jpg', function (map) {
 	floorMat.needsUpdate = true;
 
 });
-textureLoader.load('../stuff/hardwood2_bump.jpg', function (map) {
+textureLoader.load('hardwood2_bump.jpg', function (map) {
 
 	map.wrapS = THREE.RepeatWrapping;
 	map.wrapT = THREE.RepeatWrapping;
@@ -94,7 +94,7 @@ textureLoader.load('../stuff/hardwood2_bump.jpg', function (map) {
 	floorMat.needsUpdate = true;
 
 });
-textureLoader.load('../stuff/hardwood2_roughness.jpg', function (map) {
+textureLoader.load('hardwood2_roughness.jpg', function (map) {
 
 	map.wrapS = THREE.RepeatWrapping;
 	map.wrapT = THREE.RepeatWrapping;
@@ -111,7 +111,7 @@ cubeMat = new THREE.MeshStandardMaterial({
 	bumpScale: 0.002,
 	metalness: 0
 });
-textureLoader.load('../stuff/board.jpg', function (map) {
+textureLoader.load('board.jpg', function (map) {
 
 	map.wrapS = THREE.RepeatWrapping;
 	map.wrapT = THREE.RepeatWrapping;
