@@ -128,8 +128,8 @@ floorMesh.receiveShadow = true;
 floorMesh.rotation.x = -Math.PI / 2.0;
 scene.add(floorMesh);
 
-const map = new THREE.TextureLoader().load('../stuff/vul.jpg');
-const map2 = new THREE.TextureLoader().load('../stuff/crow.jpg');
+const map = new THREE.TextureLoader().load('vul.jpg');
+const map2 = new THREE.TextureLoader().load('crow.jpg');
 map.wrapS = map.wrapT = THREE.RepeatWrapping;
 map2.wrapS = map.wrapT = THREE.RepeatWrapping;
 map.anisotropy = 16;
