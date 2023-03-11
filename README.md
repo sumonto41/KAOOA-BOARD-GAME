@@ -1,5 +1,6 @@
 # KAOOA-BOARD-GAME
 https://sumonto41.github.io/KAOOA-BOARD-GAME/
+
 KAOOA: TRADITIONAL ABSTRACT STRATEGY HUNT GAME FROM INDIA
 Kaooa, otherwise known as "Vulture and Crows" is a traditional game from India. Like Len Choa ("Tiger and Leopards") and Fox and Geese, it is a hunt game. Hunt games often pit one player with one token against a second player who has multiple tokens. As you can tell, the tokens usually are named after animals, a fun dynamic that adds a little imaginative spirit to the game. Caw! Caw!
 You are here: Home / Games / Kaooa: Traditional Abstract Strategy Hunt Game from India
